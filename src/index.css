@@ -1,13 +1,209 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet');
+
+/* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0
+} */
+
+body{
+  background: #f2f2f2;
+  color: #222;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+  font-size: 20px;
+}
+
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+
+header .presentation {
+  margin: 50px 0;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: #65161666;
+  position: relative;
+}
+
+header .presentation::after {
+  content: 'LUX AUTO';
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  font-size: 40px;
+  font-weight: 600;
+  color:#2e2e2e
+}
+
+header .presentation::before {
+  content: 'по приятным ценам';
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 300;
+  color:#2e2e2e
+}
+
+.carfilter button {
+  background-color: #0072bb;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.carfilter button:hover {
+  background-color: #005c8b;
+}
+
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+main .item {
+  width: 30%;
+  margin-bottom: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+main .item img {
+  width: 100%;
+  height: 200px; /* Устанавливаем фиксированную высоту изображения */
+  object-fit: cover; /* Масштабировать изображение, сохраняя соотношение сторон и обрезая его до подходящего размера */
+  border-radius: 10px 10px 0 0; /* Добавляем радиус границ только к верхним углам изображения */
+  transition: transform 500ms ease;
+}
+
+main .item img:hover {
+  transform: scale(1.05);
+}
+
+
+main h2, main p, main b {
+  margin: 10px, 20px;
+  color: #222;
+}
+
+main b {
+  color: #0072bb;
+}
+
+
+main .add_to_cart {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #540202;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 500ms ease;
+}
+
+main .add_to_cart:hover {
+  transform: scale(1.5) translateY(-5px);
+}
+
+/* Ваши текущие стили */
+
+/* Добавляем новые стили для отфильтрованных автомобилей */
+ main .carfilter {
+  width: 30%;
+  margin-bottom: 50px;
+  background-color: #b8a5397c;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+main .carfilter img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;  
+  border-radius: 10px 10px 0 0; 
+  transition: transform 500ms ease;
+}
+
+main .carfilter img:hover {
+  transform: scale(1.05);
+}
+
+main h2, main p, main b {
+  margin: 10px, 20px;
+  color: #222;
+} 
+
+main b {
+  color: #214515;
+} 
+
+main .add_to_cart {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #540202;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 500ms ease;
+}
+
+main .add_to_cart:hover {
+  transform: scale(1.5) translateY(-5px);
+} */  */
+
+footer {
+  text-align: center;
+  margin-top: 100px;
 }

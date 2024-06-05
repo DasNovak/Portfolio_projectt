@@ -1,0 +1,17 @@
+
+.view-details-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 200px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .view-details-button:hover {
+    background-color: #e64d00;
+  }

@@ -1,0 +1,46 @@
+/* Ваш файл стилей CarFilter.css */
+
+.carfilter {
+    margin: 0 auto;
+    max-width: 700px; /* Увеличим ширину контейнера для лучшего отображения */
+    padding: 70px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+  .carfilter h3 {
+    color: #0072bb;
+    margin-bottom: 20px;
+  }
+
+  .carfilter-inputs {
+    margin-bottom: 20px;
+    display: flex; /* Используем flexbox */
+    flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+  }
+
+  .carfilter-input {
+    flex: 1; /* Равномерно распределяем доступное пространство между элементами */
+    margin-right: 10px; /* Добавим немного отступа между элементами */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .carfilter-input:last-child {
+    margin-right: 0; /* Убираем отступ для последнего элемента в строке */
+  }
+
+  .carfilter-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0072bb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .carfilter-button:hover {
+    background-color: #005c8b;
+  }

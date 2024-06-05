@@ -1,0 +1,48 @@
+.av-header {
+    background-color: #fff;
+    color: #0072bb;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.av-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.av-logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: 50px; /* Добавим отступ справа, чтобы логотип находился чуть правее */
+}
+
+.av-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.av-nav li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px; /* Увеличим размер текста */
+}
+
+.av-login-btn {
+    background-color: #0072bb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 30px; /* Увеличим размер текста */
+}
+
+.av-login-btn:hover {
+    background-color: #005c8b;
+}

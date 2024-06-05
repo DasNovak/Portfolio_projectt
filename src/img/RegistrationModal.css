@@ -1,0 +1,67 @@
+.registration-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .registration-modal-content {
+    position: relative;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    padding: 20px;
+    max-width: 400px;
+    width: 80%;
+    overflow: auto;
+  }
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: #aaa;
+  }
+
+  .auth-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Стили для кнопки логаута */
+  .logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .logout-button:hover {
+    background-color: #c82333;
+  }

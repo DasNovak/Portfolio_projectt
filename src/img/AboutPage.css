@@ -1,0 +1,43 @@
+/* AboutPage.css */
+.about-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-page-container h2 {
+    color: #333;
+  }
+
+  .about-text {
+    margin-bottom: 20px;
+  }
+
+  .about-text p {
+    line-height: 1.5;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+    font-style: italic;
+  }
+
+  .go-back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #0072bb;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .go-back-link:hover {
+    background-color: #0056b3;
+  }

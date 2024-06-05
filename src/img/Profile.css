@@ -1,0 +1,151 @@
+/* Profile.css */
+.profile-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-top: 120px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  margin-bottom: 15px;
+}
+
+.profile-label {
+  font-weight: bold;
+}
+
+.profile-value {
+  margin-left: 10px;
+}
+
+.go-back-link {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  top: 0px;
+  background-color: #0072bb;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.go-back-link:hover {
+  text-decoration: underline;
+  background-color: #0056b3;
+}
+
+/* Стили для кнопки подачи объявления */
+.add-ad-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Увеличиваем отступ снизу */
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-ad-button:hover {
+  background-color: #218838;
+}
+
+/* Стили для формы добавления объявления */
+.add-ad-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-ad-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.add-ad-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-ad-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-ad-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для списка объявлений пользователя */
+.user-ads {
+  margin-top: 30px;
+}
+
+.user-ads h3 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.user-ads ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-ads li {
+  margin-bottom: 5px;
+}
+
+.user-ads li:last-child {
+  margin-bottom: 0;
+}
+
+/* Profile.css */
+
+/* Стили для истории просмотра */
+.viewed-history {
+  margin-top: 50px;
+}
+
+.viewed-history h3 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.viewed-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.viewed-history li {
+  margin-bottom: 5px;
+}
+
+.viewed-history li:last-child {
+  margin-bottom: 0;
+}
+
+.viewed-history a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+.viewed-history a:hover {
+  color: #0056b3;
+}
